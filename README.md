@@ -1,5 +1,6 @@
 # GroupWorkSubmission
-This repository contains the cource code for our Group project, on the knight's tour problem worked on by Ahmad, Asmau and Mufeedah. The project shows a solution the problem.
+This repository contains the cource code for our Group project, on the knight's tour problem worked on by Ahmad Lawal, Asmau Yakub and Mufeedah Auwal. The project shows a solution to the problem.
+ID's respectively 20221927, 211103095, 211109046
 
 # The Requirements To run this code
 1. Clone the Repository
@@ -19,9 +20,8 @@ python --version
 
 3. Run the Script
 
-file is named knights_tour.py, they can simply run:
+file is named Theknight'sTourProblem.py you can simply run:
 
 python Theknight'sTourProblem.py
-
 
 (or python3 knights_tour.py depending on their setup).
