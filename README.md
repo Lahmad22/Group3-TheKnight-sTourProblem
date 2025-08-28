@@ -6,7 +6,7 @@ This repository contains the cource code for our Group project, on the knight's 
 
 collaborator would first clone your repo:
 
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone "https://github.com/<your-username>"/<repo-name>.git
 cd <repo-name>
 
 2. Make Sure Python is Installed
