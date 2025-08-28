@@ -32,7 +32,7 @@ def knightTour(n):
     dx = [2, 1, -1, -2, -2, -1, 1, 2]
     dy = [1, 2, 2, 1, -1, -2, -2, -1]
 
-# Start from top-left corner
+    # Start from top-left corner
     board[0][0] = 0
 
     if knightTourUtil(0, 0, 1, n, board, dx, dy):
@@ -48,7 +48,7 @@ def printBoard(board):
             print(f"{val:2}", end=" ")
         print()
 
-if _name=="main_":
+if __name__ == "__main__":
     n = 5  # change board size here
     res = knightTour(n)
 
@@ -56,4 +56,4 @@ if _name=="main_":
         print("No solution found.")
     else:
         print(f"Knight’s Tour solution for {n}x{n} board:\n")
-        printBoard(res)
+        printBoard(res)
